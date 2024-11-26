@@ -1,5 +1,6 @@
-import Test from "./Test.jsx"
+
 import Header from "./Header.jsx"
+import CourseList from "./CourseList";
 
 //jsx = java script xml
  
@@ -13,8 +14,8 @@ function App() {
       <h1>
         React
       </h1>
-      <Test/> 
       <p>Sohrab</p>
+      <CourseList/>
     </div>
     </>
   )
