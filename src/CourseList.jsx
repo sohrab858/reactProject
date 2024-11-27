@@ -1,20 +1,21 @@
-
+import CourseCardList from "./CourseCardList";
 
 function CourseList(){
-    const course = [{id : 1 , name :"js"},
-        {id : 2 , name :"class"},
-        {id : 3 , name : "course"},
-        {id: 4 , name : "Node"}];
+    const course = [
+        {id : 1 , name :"js" , description :"This is js course"},
+        {id : 2 , name :"react",description :"This is react course"},
+        {id : 3 , name : "next",description :"This is next course"},
+        {id: 4 , name : "Node",description :"This is Node course"}];
     return (
      
         <div>
         <h3>Course List</h3>
-        <ui>
+        <ul>
             {course.map((course) => (
-                <li key={course.id}>{course.name}</li>
+       <CourseCardList key={course.id} data = {course}/>
             ))}
-        </ui>
-        </div>
+        </ul>
+        </div> 
     )
 }
 
