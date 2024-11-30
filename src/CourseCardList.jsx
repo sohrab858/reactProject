@@ -1,10 +1,10 @@
 
 
-function CourseCardList({data:{name,description}}) {
+function CourseCardList() {
   return (
     <li>
-    <h4>{name}</h4>
-    <p>{description}</p>
+    <h4></h4>
+    <p></p>
     </li>
   )
 }
