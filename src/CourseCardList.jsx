@@ -3,8 +3,8 @@
 function CourseCardList() {
   return (
     <li>
-    <h4></h4>
-    <p></p>
+    <h4>man </h4>
+    <p>You</p>
     </li>
   )
 }

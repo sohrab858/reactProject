@@ -11,11 +11,11 @@ function App() {
     <>
 
      <div> 
-     <Form/>
-    {/* <Counter/>
-     <Header/> 
+     {/* <Form/>
+    <Counter/>
+     <Header/>  */}
     <Banner title="Bootstrap" description = "I am ali" numbers = {5000} /> 
-    <CourseList/> */}
+    {/* <CourseList/> */}
     </div>  
     </>
   )
